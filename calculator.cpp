@@ -8,7 +8,7 @@ int main(){
     cin>> a ;
     cout<<"enter second number"<<endl;
     cin>> b ;
-    cout<<"1.addition 2.subtraction 3.multiplication 4.division 5.remainder"<< endl;
+    cout<<"1.addition 2.subtraction 3.multiplication 4.division"<< endl;
     cin >>oper;
 
     switch(oper){
@@ -26,10 +26,6 @@ int main(){
 
         case 4: ans=a/b;
         cout<< "the divisor is " <<ans<<endl;
-        break;
-
-        case 5: ans=a%b;
-        cout<< "the remainder is " <<ans<<endl;
         break;
 
         default: cout<<"invalid input"<<endl;
